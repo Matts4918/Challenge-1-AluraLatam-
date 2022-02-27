@@ -1,0 +1,139 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0 ;
+  
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0  auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+    
+    
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold; 
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.cortes{
+    width: 940px;
+    margin: 0  auto;
+    padding: 50px;
+
+}
+.cortes li{
+  display:inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box ;
+  border : 2px solid black;
+  border-radius: 10px ;
+}
+.cortes li:hover{
+    border-color: gold;
+    
+
+}
+.cortes li:active{
+    border-color: orangered;
+}
+.cortes h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cortes li:hover h2 {
+    font-size: 33px;
+}
+.producto-descrip{
+    font-size: 20px;
+    font-weight: bold; 
+}
+.producto-precio{
+    font-size: 30px;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background:url(imagenes/bg.jpg);
+    padding: 20px;
+    
+}
+.copyright{
+    color:white;
+    font-size: 13px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+form{
+    margin: 40px 0 ;
+}
+form label,form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    font-size: 10;
+    margin: 0 0 20px;
+    padding: 5px 25px;
+    width: 50%;
+}
+.check-box{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0 ;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
